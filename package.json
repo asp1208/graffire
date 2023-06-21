@@ -2,13 +2,6 @@
   "scripts": {
     "start": "parcel index.html"
   },
-  "global": "dist/library.global.js",
-  "targets": {
-    "global": {
-      "context": "browser",
-      "outputFormat": "global"
-    }
-  },
   "devDependencies": {
     "@babel/core": "^7.19.1",
     "@parcel/babel-preset-env": "^2.7.0",
