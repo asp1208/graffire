@@ -19,7 +19,7 @@
 <script src="gl-matrix-min.js"></script>
 <script src="webgl-utils.js"></script>
 
-<script id="vertex-shader-track" type="x-shader/x-vertex">
+<script id="vertex-shader-track" type="vert">
     attribute vec3 a_position;
     attribute vec3 a_color;
 
@@ -34,7 +34,7 @@
     }
 </script>
 
-<script id="fragment-shader-track" type="x-shader/x-fragment">
+<script id="fragment-shader-track" type="frag">
     precision mediump float;
 
     varying vec3 v_color;
@@ -44,7 +44,7 @@
     }
 </script>
 
-<script id="vertex-shader-spark" type="x-shader/x-vertex">
+<script id="vertex-shader-spark" type="frag">
     attribute vec3 a_position;
 
     uniform mat4 u_mvMatrix;
@@ -56,7 +56,7 @@
     }
 </script>
 
-<script id="fragment-shader-spark" type="x-shader/x-fragment">
+<script id="fragment-shader-spark" type="frag">
     precision mediump float;
 
     uniform sampler2D u_texture;

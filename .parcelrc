@@ -1,6 +1,0 @@
-{
-    "extends": "@parcel/config-default",
-    "transformers": {
-       "*.{x-vertex,x-fragment,js,mjs,jsm,jsx,es6,cjs,ts,tsx}": ["@parcel/transformer-raw"]
-    }
-}
